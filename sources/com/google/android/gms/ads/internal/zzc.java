@@ -1,0 +1,17 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+
+package com.google.android.gms.ads.internal;
+
+import android.view.View;
+
+public interface zzc
+{
+
+    public abstract void recordClick();
+
+    public abstract void recordImpression();
+
+    public abstract void zzb(View view);
+}
